@@ -8,7 +8,7 @@ version := "0.1-SNAPSHOT"
 
 organization := "edu.cmu.lti.nlp"
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.11.12"
 
 crossScalaVersions := Seq("2.11.8","2.11.12", "2.12.4","2.10.6")
 

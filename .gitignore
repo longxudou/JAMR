@@ -11,4 +11,5 @@
 # IntelliJ cruft
 .idea
 *.iml
+/tools
 .history
