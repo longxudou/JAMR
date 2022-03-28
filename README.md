@@ -22,7 +22,14 @@ First checkout the github repository (or download the latest release):
 JAMR depends on [Scala](http://www.scala-lang.org), [Illinois NER
 system](http://cogcomp.cs.illinois.edu/page/download_view/NETagger) v2.7, tokenization scripts in
 [cdec](https://github.com/redpony/cdec), and [WordNet](http://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz) for the
-aligner. To download these dependencies into the subdirectory `tools`, cd to the `jamr` repository and run (requires
+aligner. 
+To manually install them, you can use [SDKMAN!](https://sdkman.io/install) and run the following:
+
+    sdk install sbt 1.0.2
+    sdk install scala 2.11.8
+
+
+To download these dependencies into the subdirectory `tools`, cd to the `jamr` repository and run (requires
 wget to be installed):
 
     ./setup
