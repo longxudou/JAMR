@@ -26,7 +26,7 @@ aligner.
 To manually install them, you can use [SDKMAN!](https://sdkman.io/install) and run the following:
 
     sdk install sbt 1.0.2
-    sdk install scala 2.11.8
+    sdk install scala 2.11.12
 
 
 To download these dependencies into the subdirectory `tools`, cd to the `jamr` repository and run (requires
